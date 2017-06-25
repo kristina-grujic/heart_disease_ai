@@ -24,7 +24,7 @@ def train_and_test_set(x, y):
 
 def separate_set(file):
     # csv files consist of 14 columns, last one being the type of disease,
-    return file.iloc[:, 0:12], file.iloc[:, 13]
+    return file.iloc[:, 0:9], file.iloc[:, 13]
 
 
 def logistic_regression(x_train, x_test, y_train, y_test):
@@ -129,3 +129,5 @@ if __name__ == '__main__':
     analyze_database('data/switzerland.csv', "SWITZERLAND DATABASE")
     #va
     analyze_database('data/va.csv', "VA DATABASE")
+    #hungarian
+    analyze_database('data/hungarian.csv', "HUNGARIAN DATABASE")
