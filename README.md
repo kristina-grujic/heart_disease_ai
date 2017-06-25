@@ -15,11 +15,12 @@ Used libraries : scikit-learn, pandas, numpy
 Install Anaconda (https://www.continuum.io/downloads)
 
 Install panda, numpy and scikit-learn :
-  `` conda install scikit-learn ``
-  \n
-  `` conda install pandas ``
-  \n
-  `` conda install numpy ``
+`` conda install scikit-learn ``
+<br />
+`` conda install pandas ``
+<br />
+`` conda install numpy ``
+<br />
 
 
 ## Running Project
